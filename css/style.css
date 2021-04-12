@@ -1,0 +1,152 @@
+.header{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: 30px;
+}
+.nav-ul{
+    display: flex;
+    
+}
+.nav-li{
+    color: white;
+    margin-right: 52px;
+    margin-top: 70px;
+    font-family: 'Poppins';
+}
+.nav-li-wraper{
+    margin-right: 30px;
+    width: 119px;
+    height: 119px;
+    background-color: #FF4900;
+    display: flex;
+    justify-content: center;
+}
+.nav-li-wraper>li{
+    margin-top: 70px;
+    color: white;
+    font-family: 'Poppins';
+}
+.nav-li-wraper2{
+    width: 148px;
+    height: 67px;
+    background-color:#FF4900 ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+.nav-li-wraper2>li{
+    color: white;
+    font-family: 'Poppins';
+}
+.section1-wraper{
+    display: flex;
+    width: 100%;
+}
+.img-man{
+    background-image: url(../img/man.jpg);
+    max-width: 1280px;
+    width: 100%;
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: absolute;
+    top: 119px;
+    right: 0;
+}
+.portfolio-wraper{
+    max-width: 640px;
+    width: 100%;
+    height: 396px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 50;
+    top: 320px;
+    left: 210px;
+}
+.hello-wraper{
+    max-width: 199px;
+    width: 100%;
+    height: 64px;
+    background-color: #FF4900;
+}
+.triangle{
+    width: 20px;
+    height:17px;
+    border-top: 23px solid #FF4900;
+    border-right: 17px solid black;
+    border-bottom: 23px solid black ;
+    border-left: 17px solid black;
+    margin-left: 82px;
+}
+.hello-wraper>h4{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins';
+}
+.portfolio-h1{
+    width: 640px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Poppins';
+}
+.portfolio-h2{
+    width: 552px;
+    color: white;
+    font: 22px;
+    margin-top: 18px;
+    font-family: 'Poppins';
+}
+.man-effect{
+    max-width: 720px;
+    width: 100%;
+    height: 720px;
+    margin-top: 50px;
+    margin-left: 290px;
+}
+.divs-wraper{
+    max-width: 505px;
+    width: 100%;
+    display: flex;
+    margin-top: 67px;
+}
+.download{
+    width: 241px;
+    height: 83px;
+    background-color: #FF4900;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.mywork{
+    width: 241px;
+    height: 81px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download>p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+.mywork>p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
