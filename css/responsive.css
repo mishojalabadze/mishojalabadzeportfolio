@@ -92,7 +92,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 140px;
     }
     .img-man{
         background-image: url(../img/man.jpg);
@@ -164,5 +164,387 @@
     .logo{
         max-width: 150px;
         width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .navigation{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        margin: 45px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 40px;
+    }
+}
+@media(max-width:800px){
+    .img-man{
+        background-image: url(../img/man.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 550px;
+        width: 100%;
+        height: 600px;
+        top: 119px;
+        right: 0;
+    }
+    .man-effect{
+        max-width: 500px;
+        width: 100%;
+        height: 530px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .portfolio-wraper{
+        max-width: 500px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+    .hello-wraper{
+        max-width: 110px;
+        width:100%;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+    }
+    .hello-wraper>h4{
+        font-size: 16px;
+    }
+    .triangle{
+        margin-left: 2px;
+        width: 20px;
+        height:17px;
+        border-top: 17px solid #FF4900;
+        border-right: 13px solid black;
+        border-bottom: 17px solid black ;
+        border-left: 13px solid black;
+    }
+    .divs-wraper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .portfolio-h1{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+    .portfolio-h2{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    .download{
+        width: 150px;
+        height: 53px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .mywork{
+        width: 150px;
+        height: 51px;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .download>p{
+       font-size: 14px;
+    }
+    .mywork>p{
+        font-size: 14px;
+    }
+}
+@media(max-width:600px){
+    .img-man{
+        max-width: 450px;
+        width: 100%;
+        height: 450px;
+    }
+    .man-effect{
+        max-width: 380px;
+        width: 100%;
+        height: 420px;
+        margin-top: 12px;
+        margin-left: 40px;
+    }
+    .portfolio-wraper{
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+    .hello-wraper{
+        max-width: 90px;
+        width:100%;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+    }
+    .hello-wraper>h4{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .triangle{
+        margin-left: 2px;
+        width: 20px;
+        height:17px;
+        border-top: 14px solid #FF4900;
+        border-right: 10px solid black;
+        border-bottom: 14px solid black ;
+        border-left: 10px solid black;
+    }
+    .divs-wraper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .portfolio-h1{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .portfolio-h2{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .download{
+        width: 100px;
+        height: 43px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .mywork{
+        width: 100px;
+        height: 41px;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .download>p{
+       font-size: 12px;
+    }
+    .mywork>p{
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    .img-man{
+        max-width: 350px;
+        width: 100%;
+        height: 350px;
+    }
+    .man-effect{
+        max-width: 290px;
+        width: 100%;
+        height: 350px;
+        margin-top:-5px;
+        margin-left: 35px;
+    }
+    .portfolio-wraper{
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+    .hello-wraper{
+        max-width: 90px;
+        width:100%;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+    }
+    .hello-wraper>h4{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .triangle{
+        margin-left: 2px;
+        width: 20px;
+        height:17px;
+        border-top: 14px solid #FF4900;
+        border-right: 10px solid black;
+        border-bottom: 14px solid black ;
+        border-left: 10px solid black;
+    }
+    .divs-wraper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .portfolio-h1{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .portfolio-h2{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .download{
+        width: 100px;
+        height: 43px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .mywork{
+        width: 100px;
+        height: 41px;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .download>p{
+       font-size: 12px;
+    }
+    .mywork>p{
+        font-size: 12px;
+    }
+}
+@media(max-width:375px){
+    .logo{
+        max-width: 120px;
+        width: 100%;
+    }
+    .fa-bars{
+        font-size: 28px;
+    }
+    .img-man{
+        max-width: 310px;
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .man-effect{
+        max-width: 250px;
+        width: 100%;
+        height: 300px;
+        margin-top:-5px;
+        margin-left: 35px;
+    }
+    .section1-wraper{
+        margin-top: 100px;
+    }
+    .portfolio-wraper{
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+    .hello-wraper{
+        max-width: 70px;
+        width:100%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    .hello-wraper>h4{
+        font-size: 11px;
+        margin-top: 12px;
+    }
+    .triangle{
+        margin-left: 2px;
+        width: 17px;
+        height:14px;
+        border-top: 14px solid #FF4900;
+        border-right: 10px solid black;
+        border-bottom: 14px solid black ;
+        border-left: 10px solid black;
+    }
+    .divs-wraper{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        max-width: 250px;
+        width: 100%;
+    }
+    .portfolio-h1{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .portfolio-h2{
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .download{
+        width: 80px;
+        height: 36px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .mywork{
+        width: 80px;
+        height: 35px;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .download>p{
+       font-size: 10px;
+    }
+    .mywork>p{
+        font-size: 10px;
     }
 }

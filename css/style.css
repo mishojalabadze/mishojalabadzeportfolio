@@ -150,3 +150,8 @@
     font-family: 'Poppins';
     font-size: 22px;
 }
+.fa-bars{
+    font-size: 35px;
+    color: #FF4900;
+    display: none;
+}
