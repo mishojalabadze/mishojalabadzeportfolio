@@ -86,7 +86,157 @@
         font-size: 18px;
     }
 }
-
+@media(max-width:1500px){
+    .container1{
+        max-width: 1300px;
+        width: 100%;
+    }
+    .section2-img{
+        max-width: 600px;
+        width: 100%;
+    }
+    .calendar-wraper{
+        max-width: 700px;
+        width: 100%;
+    }
+    .calendar{
+        max-width: 200px;
+        width: 100%;
+        height: 185px;
+        position: absolute;
+        top: 1900px;
+    }
+    .h1-06{
+        width: 140px;
+        height: 110px;
+        margin-bottom: 30px;
+    }
+    .h1-06>h1{
+        font-size: 25px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .span1{
+        font-size: 45px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .calendar-divs{
+        width: 140px;
+        height: 30px;
+        margin-bottom: 24px;
+    }
+    .c-div{
+        width: 13px;
+        height: 30px;
+        background-color: white;
+    }
+    .skills{
+        max-width: 470px;
+        width: 100%;
+        margin-left:60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-h1{
+        font-size: 27px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills-p{
+        font-size: 13px;
+        color: white;
+        margin-top: 42px;
+        font-family: 'Poppins';
+        margin-bottom:18px;
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 15px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .languges-borders{
+        display: flex;
+    }
+    .border1{
+        width: 360px;
+        border: 2px solid #FF4900;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border2{
+        width: 105px;
+        border: 2px solid #707070;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border3{
+        width: 315px;
+        border: 2px solid #FF7004;
+        margin-top: 16.5px;
+        margin-bottom: 35px;
+    }
+    .border4{
+        width: 150px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 35px;
+    }
+    .border5{
+        width: 400px;
+        border: 2px solid #FF9809;
+        margin-top: 16.5px;
+        margin-bottom: 35px;
+    }
+    .border6{
+        width: 65px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 35px;
+    }
+    .border7{
+        width: 440px;
+        border: 2px solid #FFBF0D;
+        margin-top: 10px;
+    }
+    .border8{
+        width: 25px;
+        border: 2px solid #707070;
+        margin-top: 10px;
+    }
+    .info-divs-wraper{
+        display: flex;
+        margin-top: 85px;
+    }
+    .hire{
+        width: 170px;
+        height: 60px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins';
+        margin-right: 20px;
+    }
+    .about{
+        width: 170px;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
+}
 @media(max-width:1280px) {
     .section1-wraper{
         display: flex;
@@ -165,6 +315,147 @@
         max-width: 150px;
         width: 100%;
     }
+    .container1{
+        max-width: 900px;
+        width: 100%;
+        margin-top: 500px;
+        display:flex;
+        flex-direction: column;
+    }
+    .section2-img{
+        position: unset;
+        max-width: 700px;
+        width: 100%;
+    }
+    .calendar-wraper{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .calendar{
+        position: absolute;
+        top: 2310px;
+        max-width: 252px;
+        width: 100%;
+        height: 233px;
+    }
+    .calendar-divs{
+        width: 170px;
+        height: 39px;
+        margin-bottom: 35px;
+    }
+    .c-div{
+        width: 17px;
+        height: 36px;
+    }
+    .h1-06{
+        margin-bottom:55px;
+    }
+    .skills{
+        max-width: 650px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 120px;
+    }
+    .skills-h1{
+        font-size: 40px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills-p{
+        max-width: 650px;
+        width: 100%;
+        font-size: 18px;
+        color: white;
+        margin-top: 42px;
+        font-family: 'Poppins';
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 18px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .languges-borders{
+        display: flex;
+    }
+    .border1{
+        width: 510px;
+        border: 2px solid #FF4900;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border2{
+        width: 135px;
+        border: 2px solid #707070;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border3{
+        width: 462px;
+        border: 2px solid #FF7004;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border4{
+        width: 185px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border5{
+        width: 561px;
+        border: 2px solid #FF9809;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border6{
+        width: 87px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border7{
+        width: 605px;
+        border: 2px solid #FFBF0D;
+        margin-top: 16.5px;
+    }
+    .border8{
+        width: 44px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+    }
+    .info-divs-wraper{
+        display: flex;
+        margin-top: 108px;
+    }
+    .hire{
+        width: 241px;
+        height: 83px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins';
+        margin-right: 20px;
+    }
+    .about{
+        width: 241px;
+        height: 83px;
+        border-radius: 10px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins'; 
+    }
 }
 @media(max-width:1024px){
     .navigation{
@@ -181,6 +472,9 @@
     .logo{
         margin-left: 40px;
     }
+}
+@media(max-width:900px){
+
 }
 @media(max-width:800px){
     .img-man{
@@ -268,6 +562,173 @@
     }
     .mywork>p{
         font-size: 14px;
+    }
+    .container1{
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 287px;
+    }
+    .calendar-wraper{
+        max-width: 650px;
+        width: 100%;
+    }
+    .section2-img{
+        max-width: 500px;
+        width: 100%;
+    }
+    .calendar{
+        max-width: 180px;
+        width: 100%;
+        height: 160px;
+        background-color: #111111;
+        border-radius: 10px;
+        position: absolute;
+        top: 1965px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .calendar-divs{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .c-div{
+        width: 15px;
+        height: 25px;
+        background-color: white;
+    }
+    .h1-06{
+        width: 110px;
+        height: 110px;
+        margin-bottom: 35px;
+    }
+    .h1-06>h1{
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .span1{
+        font-size: 40px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-h1{
+        max-width: 500px;
+        width: 100%;
+        font-size: 30px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills-p{
+        max-width: 500px;
+        width: 100%;
+        font-size: 14px;
+        color: white;
+        margin-top: 42px;
+        font-family: 'Poppins';
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 14px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .languges-borders{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+    }
+    .border1{
+        width: 370px;
+        border: 2px solid #FF4900;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border2{
+        width: 125px;
+        border: 2px solid #707070;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border3{
+        width: 310px;
+        border: 2px solid #FF7004;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border4{
+        width: 185px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border5{
+        width: 420px;
+        border: 2px solid #FF9809;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border6{
+        width: 75px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border7{
+        width: 460px;
+        border: 2px solid #FFBF0D;
+        margin-top: 16.5px;
+    }
+    .border8{
+        width: 35px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+    }
+    .info-divs-wraper{
+        max-width: 330px;
+        width: 100%;
+        display: flex;
+        margin-top: 108px;    }
+    .hire{
+        width: 150px;
+        height: 63px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins';
+        margin-right: 20px;
+    }
+    .about{
+        width:150px;
+        height: 63px;
+        border-radius: 10px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size:18px;
+        font-family: 'Poppins'; 
+    }
+    .calendar-divs{
+        display: flex;
     }
 }
 @media(max-width:600px){
@@ -358,6 +819,156 @@
     .mywork>p{
         font-size: 12px;
     }
+    .section2-img{
+        max-width: 380px;
+        width: 100%;
+    }
+    .calendar-wraper{
+        max-width: 460px;
+        width: 100%;
+    }
+    .calendar{
+        position: absolute;
+        top: 1680px;
+        max-width: 140px;
+        width: 100%;
+        height: 120px;
+    }
+    .calendar-divs{
+        width: 100px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .c-div{
+        width: 10px;
+        height: 20px;
+        background-color: white;
+    }
+    .h1-06{
+        width: 85px;
+        height: 110px;
+        margin-bottom: 25px;
+    }
+    .h1-06>h1{
+        font-size: 15px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .span1{
+        font-size: 30px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills{
+        max-width: 460px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .skills-h1{
+        max-width: 460px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .skills-p{
+        max-width: 460px;
+        width: 100%;
+        font-size: 12px;
+        color: white;
+        margin-top: 42px;
+        font-family: 'Poppins';
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 12px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .languges-borders{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+    }
+    .border1{
+        width: 370px;
+        border: 2px solid #FF4900;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border2{
+        width: 125px;
+        border: 2px solid #707070;
+        margin-top: 24.5px;
+        margin-bottom: 35px;
+    }
+    .border3{
+        width: 310px;
+        border: 2px solid #FF7004;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border4{
+        width: 185px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border5{
+        width: 420px;
+        border: 2px solid #FF9809;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border6{
+        width: 75px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+        margin-bottom: 45px;
+    }
+    .border7{
+        width: 460px;
+        border: 2px solid #FFBF0D;
+        margin-top: 16.5px;
+    }
+    .border8{
+        width: 35px;
+        border: 2px solid #707070;
+        margin-top: 16.5px;
+    }
+    .info-divs-wraper{
+        max-width: 330px;
+        width: 100%;
+        display: flex;
+        margin-top: 108px;    }
+    .hire{
+        width: 150px;
+        height: 63px;
+        background-color: #FF4900;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins';
+        margin-right: 20px;
+    }
+    .about{
+        width:150px;
+        height: 63px;
+        border-radius: 10px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size:18px;
+        font-family: 'Poppins'; 
+    }
+    .container1{
+        margin-top: 100px;
+    }
 }
 @media(max-width:480px){
     .img-man{
@@ -447,6 +1058,225 @@
     .mywork>p{
         font-size: 12px;
     }
+    .section2-img{
+        max-width: 290px;
+        width: 100%;
+    }
+    .calendar-wraper{
+        max-width: 380px;
+        width: 100%;
+    }
+    .container1{
+        max-width: 400px;
+        width: 100%;
+    }
+    .calendar{
+        position: absolute;
+        top: 1600px;
+        max-width: 100px;
+        width: 100%;
+        height: 90px;
+    }
+    .calendar-divs{
+        width: 60px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .c-div{
+        width: 5px;
+        height: 10px;
+        background-color: white;
+    }
+    .h1-06{
+        width: 60px;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+    .h1-06>h1{
+        font-size: 11px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .span1{
+        font-size: 23px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .skills{
+        max-width: 380px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .skills-h1{
+        max-width: 380px;
+        width: 100%;
+        font-size: 17px;
+    }
+    .skills-p{
+        max-width: 380px;
+        width: 100%;
+        font-size: 10px;
+        margin-top: 42px;
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 10px;
+    }
+    .languges-borders{
+        max-width: 380px;
+        width: 100%;
+    }
+    .border1{
+        width: 370px;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border2{
+        width: 125px;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border3{
+        width: 310px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border4{
+        width: 185px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border5{
+        width: 420px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border6{
+        width: 75px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border7{
+        width: 460px;
+        margin-top: 16.5px;
+    }
+    .border8{
+        width: 35px;
+        margin-top: 16.5px;
+    }
+    .info-divs-wraper{
+        max-width: 260px;
+        width: 100%;
+        display: flex;
+        margin-top: 80px;    }
+    .hire{
+        width: 120px;
+        height: 53px;
+        color: white;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .about{
+        width:120px;
+        height: 53px;
+        font-size:15px;
+    }
+}
+@media(max-width:414px){
+    .section2-img{
+        max-width: 260px;
+        width: 100%;
+    }
+    .calendar-wraper{
+        max-width: 350px;
+        width: 100%;
+    }
+    .container1{
+        max-width: 400px;
+        width: 100%;
+    }
+    .calendar{
+        position: absolute;
+        top: 1580px;
+    }
+    .skills{
+        max-width: 300px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .skills-h1{
+        max-width: 300px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .skills-p{
+        max-width: 300px;
+        width: 100%;
+        font-size: 8px;
+        margin-top: 42px;
+    }
+    .languges-wraper{
+        margin-top: 26px;
+    }
+    .languges{
+        font-size: 8px;
+    }
+    .languges-borders{
+        max-width: 300px;
+        width: 100%;
+    }
+    .border1{
+        width: 220px;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border2{
+        width: 70px;
+        margin-top: 24.5px;
+        margin-bottom: 25px;
+    }
+    .border3{
+        width: 180px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border4{
+        width: 110px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border5{
+        width: 230px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border6{
+        width: 60px;
+        margin-top: 16.5px;
+        margin-bottom: 30px;
+    }
+    .border7{
+        width:260px;
+        margin-top: 16.5px;
+    }
+    .border8{
+        width: 30px;
+        margin-top: 16.5px;
+    }
+    .hire{
+        width: 90px;
+        height: 43px;
+        color: white;
+        font-size: 13px;
+        margin-right: 20px;
+    }
+    .about{
+        width:90px;
+        height:43px;
+        font-size:13px;
+    }
 }
 @media(max-width:375px){
     .logo{
@@ -471,6 +1301,7 @@
     }
     .section1-wraper{
         margin-top: 100px;
+        height: 870px;
     }
     .portfolio-wraper{
         max-width: 300px;
@@ -546,5 +1377,50 @@
     }
     .mywork>p{
         font-size: 10px;
+    }
+    .section2-img{
+        max-width: 230px;
+        width: 100%;
+        margin-left: 50px;
+    }
+    .calendar-wraper{
+        max-width: 290px;
+        width: 100%;
+    }
+    .container1{
+        max-width: 400px;
+        width: 100%;
+    }
+    .calendar{
+        position: absolute;
+        top: 1410px;
+        max-width: 80px;
+        width: 100%;
+        height: 70px;
+    }
+    .calendar-divs{
+        width: 50px;
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    .c-div{
+        width: 5px;
+        height: 10px;
+        background-color: white;
+    }
+    .h1-06{
+        width: 50px;
+        height: 110px;
+        margin-bottom: 13px;
+    }
+    .h1-06>h1{
+        font-size: 9px;
+        color: white;
+        font-family: 'Poppins';
+    }
+    .span1{
+        font-size: 18px;
+        color: white;
+        font-family: 'Poppins';
     }
 }
