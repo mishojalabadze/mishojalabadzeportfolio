@@ -490,10 +490,6 @@
     font-size: 30px;
     font-family: 'Poppins';
 }
-.slider {
-    display: flex;
-    margin-top: 139px;
-}
 .slider .slider_item {
     width: 1154px;
     height: 629px;
