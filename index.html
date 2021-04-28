@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="slick.css">
 	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/reset.css">
@@ -13,23 +13,25 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="body">
-    <header class="header">
-        <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
-        <i class="fas fa-bars"></i>
-        <nav class="navigation">
-            <ul class="nav-ul">
-                <div class="nav-li-wraper">
-                    <li><a class="aa" href="#about me">About Me</a></li>
-                </div>
-                <li class="nav-li"><a class="aa" href="#service">Services</a></li>
-                <li class="nav-li"><a class="aa" href="#portfolio">Portfolio</a></li>
-                <li class="nav-li"><a class="aa" href="#slick">Testimonials</a></li>
-                <li class="nav-li"><a class="aa" href="#contact us">Contact Us</a></li>
-                <div class="nav-li-wraper2">
-                    <li><a class="aa" href="#">Hire Me!</a></li>
-                </div>
+    <header class="header-wraper">
+            <ul class="logo">
+                <a href="#"> <img class="image" src="img/logo.svg" alt=""> </a>
             </ul>
-        </nav>
+            <div class="ul-wraper">
+                <ul id="menu" class="menu-ul">
+                    <li><a class="nav-a nav1" href="#">About Me</a></li>
+                    <li><a class="nav-a nav2" href="#">Services</a></li>
+                    <li><a class="nav-a nav3" href="#">Portfolio</a></li>
+                    <li><a class="nav-a" href="#">Testimonials</a></li>
+                    <li><a class="nav-a ab" href="#">Contact Us</a></li>
+                    <div class="nav-li-wraper">
+                        <li><a class="nav-a a1" href="#">Hire Me!</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div id="burger-menu" class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>    
     </header>
     <section id="about me">
         <div class="section1-wraper">
@@ -208,9 +210,11 @@
                 </div>
 		</div>
 	</section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/myapp.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="slick.min.js"></script>
-	<script src="script.js"></script>
+	<script src="js/script.js"></script>
     <footer id="contact us" class="footer">
         <div class="container3">
             <div class="contact-wraper">
