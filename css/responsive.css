@@ -79,10 +79,10 @@
         justify-content: center;
         align-items: center;
     }
-    .download>p{
+    .download>a{
         font-size: 18px;
     }
-    .mywork>p{
+    .mywork>a{
         font-size: 18px;
     }
 }
@@ -232,6 +232,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .about>a{
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
         color: white;
         font-size: 18px;
         font-family: 'Poppins'; 
@@ -253,7 +260,7 @@
     .number1>h2{
         font-size: 14px;
     }
-    .number1>p{
+    .number1>a{
         font-size: 20px;
     }
     .find{
@@ -578,6 +585,16 @@
         font-size: 22px;
         font-family: 'Poppins'; 
     }
+    .about>a{
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins'; 
+    }
     .container2>h1{
         font-size: 30px;
     }
@@ -698,7 +715,7 @@
         font-family: 'Poppins';
         margin-bottom: 5px;
     }
-    .number1>p{
+    .number1>a{
         color:white;
         font-size: 25px;
         font-family: 'Poppins';
@@ -834,9 +851,10 @@
   } 
   .nav1{
       text-align: start;
-      width: 90px;
+      width: 105px;
       margin: 0;
       margin-bottom: 30px;
+      margin-left: 17px;
   }
   .nav2{
     text-align: start;
@@ -1106,10 +1124,10 @@
         justify-content: center;
         align-items: center;
     }
-    .download>p{
+    .download>a{
        font-size: 14px;
     }
-    .mywork>p{
+    .mywork>a{
         font-size: 14px;
     }
     .container1{
@@ -1276,6 +1294,16 @@
         font-size:18px;
         font-family: 'Poppins'; 
     }
+    .about>a{
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
     .calendar-divs{
         display: flex;
     }
@@ -1314,10 +1342,11 @@
     }
     .nav-a{
         font-size: 14px;
+        transition: all 0.2s 0.2s linear;
     } 
     .nav1{
         font-size: 14px;
-        width: 70px;
+        width: 90px;
     }
     .nav2{
         font-size: 14px;
@@ -1326,6 +1355,9 @@
     .nav3{
         font-size: 14px;
         width: 70px;
+    }
+    .nav-a:hover{
+        font-size: 18px;
     }
 }
 @media(max-width:767px){
@@ -1423,7 +1455,7 @@
         font-family: 'Poppins';
         margin-bottom: 5px;
     }
-    .number1>p{
+    .number1>a{
         color:white;
         font-size: 20px;
         font-family: 'Poppins';
@@ -1527,7 +1559,7 @@
     } 
     .nav1{
         font-size: 14px;
-        width: 70px;
+        width: 90px;
     }
     .nav2{
         font-size: 14px;
@@ -1671,10 +1703,10 @@
         justify-content: center;
         align-items: center;
     }
-    .download>p{
+    .download>a{
        font-size: 12px;
     }
-    .mywork>p{
+    .mywork>a{
         font-size: 12px;
     }
     .section2-img{
@@ -1824,6 +1856,16 @@
         font-size:18px;
         font-family: 'Poppins'; 
     }
+    .about>a{
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins'; 
+    }
     .container1{
         margin-top: 100px;
     }
@@ -1925,10 +1967,10 @@
         justify-content: center;
         align-items: center;
     }
-    .download>p{
+    .download>a{
        font-size: 12px;
     }
-    .mywork>p{
+    .mywork>a{
         font-size: 12px;
     }
     .section2-img{
@@ -2057,6 +2099,16 @@
         height: 53px;
         font-size:15px;
     }
+    .about>a{
+        color: white;
+        font-size: 15px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
+        color: white;
+        font-size: 15px;
+        font-family: 'Poppins'; 
+    }
     .wordpress{
         width: 280px;
         height: 100px;
@@ -2137,18 +2189,22 @@
     }
     .nav-a{
         font-size: 12px;
+        transition: all 0.2s 0.2s linear;
     } 
     .nav1{
         font-size: 12px;
         width: 70px;
+        margin-left: 14px;
     }
     .nav2{
         font-size: 12px;
         width: 70px;
+        margin-left: 17px;
     }
     .nav3{
         font-size: 12px;
         width: 70px;
+        margin-left: 17px;
     }
     .logo{
         margin-left: 20px;
@@ -2159,6 +2215,9 @@
     }
     .image{
         width: 120px;
+    }
+    .nav-a:hover{
+        font-size: 14px;
     }
 }
 @media(max-width:414px){
@@ -2257,6 +2316,16 @@
         height:43px;
         font-size:13px;
     }
+    .about>a{
+        color: white;
+        font-size: 13px;
+        font-family: 'Poppins'; 
+    }
+    .hire>a{
+        color: white;
+        font-size: 13px;
+        font-family: 'Poppins'; 
+    }
     .calendar{
         top: 1820px;
     }
@@ -2314,7 +2383,7 @@
         font-family: 'Poppins';
         margin-bottom: 5px;
     }
-    .number1>p{
+    .number1>a{
         color:white;
         font-size: 16px;
         font-family: 'Poppins';
@@ -2504,10 +2573,10 @@
         justify-content: center;
         align-items: center;
     }
-    .download>p{
+    .download>a{
        font-size: 10px;
     }
-    .mywork>p{
+    .mywork>a{
         font-size: 10px;
     }
     .section2-img{

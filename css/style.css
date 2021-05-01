@@ -22,6 +22,11 @@ ul{
     color: white;
     font-size: 18px;
     font-family: 'Poppins';
+    transition: all 0.2s 0.2s linear;
+}
+.nav-a:hover{
+    font-size: 22px;
+    opacity: 30%;
 }
 .nav-li-wraper{
     width: 148px;
@@ -34,6 +39,10 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s 0.2s linear;
+}
+.nav-li-wraper:hover{
+    opacity: 30%;
 }
 .a1{
     width: 20px;
@@ -136,6 +145,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    transition: all 0.2s 0.2s linear;
 }
 .mywork{
     width: 241px;
@@ -145,16 +155,23 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s 0.2s linear;
 }
-.download>p{
+.download>a{
     color: white;
     font-family: 'Poppins';
     font-size: 22px;
 }
-.mywork>p{
+.mywork>a{
     color: white;
     font-family: 'Poppins';
     font-size: 22px;
+}
+.download:hover{
+    opacity: 30%;
+}
+.mywork:hover{
+    opacity: 30%;
 }
 .fa-bars{
     font-size: 35px;
@@ -307,6 +324,7 @@ ul{
     font-size: 22px;
     font-family: 'Poppins';
     margin-right: 20px;
+    transition: all 0.2s 0.2s linear;
 }
 .about{
     width: 241px;
@@ -316,9 +334,23 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s 0.2s linear;
+}
+.hire>a{
     color: white;
     font-size: 22px;
     font-family: 'Poppins'; 
+}
+.about>a{
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins'; 
+}
+.about:hover{
+    opacity: 30%;
+}
+.hire:hover{
+    opacity: 30%;
 }
 .calendar-divs{
     display: flex;
@@ -675,7 +707,7 @@ ul{
     font-family: 'Poppins';
     margin-bottom: 5px;
 }
-.number1>p{
+.number1>a{
     color:white;
     font-size: 25px;
     font-family: 'Poppins';
@@ -777,11 +809,14 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
     margin-top: 53px;
     color: white;
     font-size: 22px;
     font-family: 'Poppins';
+    transition: all 0.2s 0.2s linear;
+}
+.button:hover{
+    opacity: 30%;
 }
 .footer-h1{
     color: white;
